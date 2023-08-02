@@ -27,7 +27,7 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
   ## Questions
-  Please direct questions to ${data.github} at ${data.email}.`;
+  Please direct questions to [${data.github}](${data.github}) at [${data.email}](${data.email}).`;
   return readME;
 }
 
