@@ -2,6 +2,11 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
+const path = require('path');
+const readMeFiles = './readme-files';
+if (!fs.existsSync(readMeFiles)) {
+    fs.mkdirSync(readMeFiles)
+}
 
 // TODO: Create an array of questions for user input
 const questions = ['What is the title of this project?',
@@ -73,7 +78,8 @@ function init() {
     ])
     .then((data) => {
     const readMeContent = generateMarkdown(data);
-    writeToFile('README.md', readMeContent)});
+    const readMeFilesPath = path.join(readMeFiles, 'README.md');
+    writeToFile(readMeFilesPath, readMeContent)});
 }
 
 // Function call to initialize app
