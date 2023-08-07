@@ -37,13 +37,13 @@ function generateMarkdown(data) {
   const readME = 
   `# ${data.title}  ${renderLicense(data)}
   ## Table of Contents:
-  [Description](#Description)
-  [Installation Instructions](#Installation-Instructions)
-  [Usage Information](#Usage-Information)
-  [Contribution Guidelines](#Contribution-Guidelines)
-  [Testing Instructions](#Testing-Instructions)
-  [License](#License)
-  [Questions](#Questions)
+  [Description](#description)
+  [Installation Instructions](#installation-instructions)
+  [Usage Information](#usage-information)
+  [Contribution Guidelines](#contribution-guidelines)
+  [Testing Instructions](#testing-instructions)
+  [License](#license)
+  [Questions](#questions)
   ## Description:
   ${data.description}
   ## Installation Instructions

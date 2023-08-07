@@ -1,12 +1,12 @@
 # README Generator  
   ## Table of Contents:
-  [Description](#Description)
-  [Installation Instructions](#Installation-Instructions)
-  [Usage Information](#Usage-Information)
-  [Contribution Guidelines](#Contribution-Guidelines)
-  [Testing Instructions](#Testing-Instructions)
-  [License](#License)
-  [Questions](#Questions)
+  [Description](#description)
+  [Installation Instructions](#installation-instructions)
+  [Usage Information](#usage-information)
+  [Contribution Guidelines](#contribution-guidelines)
+  [Testing Instructions](#testing-instructions)
+  [License](#license)
+  [Questions](#questions)
   ## Description:
   This project allows a user to create a high-quality, professional README file using the command line. This application was created using node.js and inquirer to prompt the user with questions which are then answered to created the README file. The application will save the created README file in a directory named 'readme-files' so the user can simply copy that file to the project it is needed. If no 'readme-files' directory exists, the application will create one.
   ## Installation Instructions
