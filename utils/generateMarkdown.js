@@ -36,6 +36,14 @@ function renderLicense(data) {
 function generateMarkdown(data) {
   const readME = 
   `# ${data.title}  ${renderLicense(data)}
+  ## Table of Contents:
+  [Description](#Description)
+  [Installation Instructions](#Installation-Instructions)
+  [Usage Information](#Usage-Information)
+  [Contribution Guidelines](#Contribution-Guidelines)
+  [Testing Instructions](#Testing-Instructions)
+  [License](#License)
+  [Questions](#Questions)
   ## Description:
   ${data.description}
   ## Installation Instructions
